@@ -163,8 +163,6 @@ const typedEl = document.querySelector('.hero-intro');
 // Subtle hero text entrance
 document.querySelector('.hero-text').style.opacity = '0';
 document.querySelector('.hero-text').style.transform = 'translateY(30px)';
-document.querySelector('.hero-image-wrapper').style.opacity = '0';
-document.querySelector('.hero-image-wrapper').style.transform = 'translateY(30px)';
 
 window.addEventListener('load', () => {
   setTimeout(() => {
@@ -173,10 +171,4 @@ window.addEventListener('load', () => {
     heroText.style.opacity = '1';
     heroText.style.transform = 'translateY(0)';
   }, 100);
-  setTimeout(() => {
-    const heroImg = document.querySelector('.hero-image-wrapper');
-    heroImg.style.transition = 'opacity 0.9s ease, transform 0.9s ease';
-    heroImg.style.opacity = '1';
-    heroImg.style.transform = 'translateY(0)';
-  }, 400);
 });
