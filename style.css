@@ -1319,3 +1319,78 @@ body {
 
   .skills-grid { grid-template-columns: 1fr; }
 }
+
+/* =========================================
+   NO-IMAGE OVERRIDES
+   ========================================= */
+
+/* Hero - full width centered */
+.hero-content-centered {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 80px;
+}
+
+.hero-text-centered {
+  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-text-centered .hero-intro {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.hero-text-centered .hero-buttons {
+  justify-content: center;
+}
+
+.hero-text-centered .hero-socials {
+  justify-content: center;
+}
+
+.hero-text-centered .hero-roles {
+  justify-content: center;
+}
+
+/* About - full width no image */
+.about-grid-noimg {
+  grid-template-columns: 1fr;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.about-text-full {
+  padding-top: 0;
+}
+
+/* Stats row inside about */
+.about-stat-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  padding: 24px 32px;
+  margin: 32px 0;
+  backdrop-filter: blur(16px);
+}
+
+.about-stat-row .stat {
+  flex: 1;
+  text-align: center;
+}
+
+.about-stat-row .stat-divider {
+  width: 1px;
+  height: 40px;
+  background: var(--border);
+  flex-shrink: 0;
+}
