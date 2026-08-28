@@ -1,0 +1,425 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sandhya K - AI & Data Science Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">SK<span class="dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <section class="hero" id="home">
+    <canvas id="particleCanvas"></canvas>
+    <div class="hero-grid-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Available for Opportunities
+        </div>
+        <h1 class="hero-name">Sandhya <span class="gradient-text">K</span></h1>
+        <div class="hero-roles">
+          <span class="role-tag">AI &amp; Data Science Student</span>
+          <span class="role-divider">·</span>
+          <span class="role-tag">Java Developer</span>
+          <span class="role-divider">·</span>
+          <span class="role-tag">Data Analytics Enthusiast</span>
+        </div>
+        <p class="hero-intro">
+          Final-year Artificial Intelligence and Data Science student passionate about
+          building intelligent solutions, developing software applications, and
+          transforming data into meaningful insights.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View My Projects</a>
+          <a href="resume.pdf" class="btn btn-outline" download><i class="fas fa-download"></i> Download Resume</a>
+          <a href="#contact" class="btn btn-ghost"><i class="fas fa-envelope"></i> Contact Me</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/sandhyakannan61" target="_blank" class="social-link" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/sandhya77" target="_blank" class="social-link" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="hero-image-ring ring-1"></div>
+        <div class="hero-image-ring ring-2"></div>
+        <div class="hero-image-ring ring-3"></div>
+        <div class="hero-image-container">
+          <img src="profile.jpg" alt="Sandhya K" class="hero-photo" />
+        </div>
+        <div class="floating-badge badge-ai">AI</div>
+        <div class="floating-badge badge-ds">Data Science</div>
+        <div class="floating-badge badge-java">Java</div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Who I Am</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-col">
+          <div class="about-img-frame">
+            <img src="profile.jpg" alt="Sandhya K" class="about-photo" />
+            <div class="about-img-border"></div>
+          </div>
+          <div class="about-stat-card">
+            <div class="stat">
+              <span class="stat-number">8.93</span>
+              <span class="stat-label">CGPA</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-col">
+          <p class="about-description">
+            I am a <strong>final-year B.Tech student</strong> specializing in
+            <strong>Artificial Intelligence and Data Science</strong> at V.S.B College
+            of Engineering and Technical Campus. My passion lies at the intersection of
+            intelligent systems and data-driven decision-making.
+          </p>
+          <p class="about-description">
+            I have hands-on experience in <strong>Java development</strong>,
+            <strong>machine learning</strong>, <strong>data analytics</strong>, and
+            <strong>web development</strong>. I love solving real-world problems by
+            building scalable, intelligent applications that create measurable impact.
+          </p>
+          <p class="about-description">
+            As a quick learner and dedicated problem-solver, I thrive in fast-paced
+            environments and am always eager to explore new technologies, contribute to
+            meaningful projects, and grow as a developer and researcher.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <i class="fas fa-graduation-cap"></i>
+              <span>B.Tech AI &amp; Data Science - CGPA <strong>8.93</strong></span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-code"></i>
+              <span>Java Developer &amp; AI/ML Practitioner</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-chart-bar"></i>
+              <span>Data Analytics &amp; Visualization Expert</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-lightbulb"></i>
+              <span>Patent Published - Aegis AI Framework</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="education section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Academic Background</span>
+        <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-card">
+            <div class="edu-header">
+              <div class="edu-icon"><i class="fas fa-university"></i></div>
+              <div>
+                <h3 class="edu-degree">B.Tech - Artificial Intelligence &amp; Data Science</h3>
+                <p class="edu-college">V.S.B College of Engineering and Technical Campus</p>
+              </div>
+            </div>
+            <div class="edu-meta">
+              <span class="edu-year"><i class="fas fa-calendar-alt"></i> 2023 - 2027</span>
+              <span class="edu-cgpa"><i class="fas fa-star"></i> CGPA: 8.93</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What I Know</span>
+        <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category glass-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fas fa-code"></i></div>
+            <h3>Programming Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+            <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+          </div>
+        </div>
+        <div class="skill-category glass-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fas fa-brain"></i></div>
+            <h3>AI &amp; Data Science</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fas fa-robot"></i> Machine Learning</span>
+            <span class="skill-tag"><i class="fas fa-language"></i> NLP</span>
+            <span class="skill-tag"><i class="fas fa-search"></i> RAG</span>
+            <span class="skill-tag"><i class="fas fa-database"></i> FAISS</span>
+          </div>
+        </div>
+        <div class="skill-category glass-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fas fa-chart-pie"></i></div>
+            <h3>Data Analytics</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fas fa-table"></i> SQL</span>
+            <span class="skill-tag"><i class="fas fa-chart-bar"></i> Power BI</span>
+            <span class="skill-tag"><i class="fas fa-chart-line"></i> Data Visualization</span>
+          </div>
+        </div>
+        <div class="skill-category glass-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>Development</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fas fa-stream"></i> Streamlit</span>
+            <span class="skill-tag"><i class="fab fa-html5"></i> HTML</span>
+            <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-category glass-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fas fa-tools"></i></div>
+            <h3>Tools &amp; Platforms</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+            <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+            <span class="skill-tag"><i class="fas fa-code"></i> VS Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What I have Built</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card glass-card">
+          <div class="project-number">01</div>
+          <div class="project-icon"><i class="fas fa-robot"></i></div>
+          <h3 class="project-title">IT Helpdesk Chatbot</h3>
+          <p class="project-desc">Developed an AI-powered IT Helpdesk Chatbot using Retrieval-Augmented Generation to answer technical queries from PDF documents. Implemented semantic search and built an interactive Streamlit interface.</p>
+          <div class="project-tech">
+            <span>Python</span><span>Streamlit</span><span>FAISS</span><span>NLP</span><span>RAG</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/sandhyakannan61" target="_blank" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+        <div class="project-card glass-card">
+          <div class="project-number">02</div>
+          <div class="project-icon"><i class="fas fa-cloud"></i></div>
+          <h3 class="project-title">Cloud Cost Optimizer AI Agent</h3>
+          <p class="project-desc">Developed an intelligent AI system that analyzes cloud infrastructure data, identifies opportunities to reduce cloud cost wastage, and provides AI-powered recommendations.</p>
+          <div class="project-tech">
+            <span>Streamlit</span><span>SQLite</span><span>AI</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/sandhyakannan61" target="_blank" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+        <div class="project-card glass-card">
+          <div class="project-number">03</div>
+          <div class="project-icon"><i class="fas fa-wallet"></i></div>
+          <h3 class="project-title">Finance Tracker</h3>
+          <p class="project-desc">Developed a personal finance tracking application to manage income and expenses, categorize transactions, and visualize financial data through an interactive dashboard.</p>
+          <div class="project-tech">
+            <span>Python</span><span>Streamlit</span><span>SQLite</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/sandhyakannan61" target="_blank" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Work Experience</span>
+        <h2 class="section-title">My <span class="gradient-text">Internship</span></h2>
+      </div>
+      <div class="experience-card glass-card">
+        <div class="exp-left">
+          <div class="exp-icon"><i class="fas fa-briefcase"></i></div>
+          <div class="exp-line"></div>
+        </div>
+        <div class="exp-right">
+          <div class="exp-header">
+            <div>
+              <h3 class="exp-role">Data Analytics Intern</h3>
+              <p class="exp-company">Techvolt Software Pvt. Ltd., Coimbatore</p>
+            </div>
+            <span class="exp-date"><i class="fas fa-calendar-alt"></i> April 2024</span>
+          </div>
+          <ul class="exp-responsibilities">
+            <li><i class="fas fa-check-circle"></i> Data preprocessing and cleaning for analytical pipelines</li>
+            <li><i class="fas fa-check-circle"></i> Data visualization using modern BI tools</li>
+            <li><i class="fas fa-check-circle"></i> Exploratory data analysis and pattern recognition</li>
+            <li><i class="fas fa-check-circle"></i> Extracting actionable insights to support business decision-making</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="certifications section" id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Credentials &amp; Wins</span>
+        <h2 class="section-title">Certifications &amp; <span class="gradient-text">Achievements</span></h2>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card glass-card">
+          <div class="cert-icon cert-blue"><i class="fas fa-certificate"></i></div>
+          <div class="cert-body"><h4>Data Science</h4><p>Internshala</p></div>
+        </div>
+        <div class="cert-card glass-card">
+          <div class="cert-icon cert-purple"><i class="fas fa-certificate"></i></div>
+          <div class="cert-body"><h4>Introduction to Machine Learning</h4><p>Infosys Springboard</p></div>
+        </div>
+        <div class="cert-card glass-card">
+          <div class="cert-icon cert-teal"><i class="fas fa-cloud"></i></div>
+          <div class="cert-body"><h4>Cloud Computing</h4><p>NPTEL, IIT Kharagpur</p></div>
+        </div>
+        <div class="cert-card glass-card">
+          <div class="cert-icon cert-orange"><i class="fas fa-brain"></i></div>
+          <div class="cert-body"><h4>Explore Machine Learning Using Python</h4><p>Infosys Springboard</p></div>
+        </div>
+        <div class="cert-card glass-card achievement">
+          <div class="cert-icon cert-gold"><i class="fas fa-file-certificate"></i></div>
+          <div class="cert-body"><h4>Patent Published</h4><p>Aegis AI - Intelligent Cyber Resilience Framework</p></div>
+          <span class="achievement-badge">Patent</span>
+        </div>
+        <div class="cert-card glass-card achievement">
+          <div class="cert-icon cert-silver"><i class="fas fa-trophy"></i></div>
+          <div class="cert-body"><h4>2nd Place - Talkathon 2.0</h4><p>Public Speaking Competition</p></div>
+          <span class="achievement-badge">Award</span>
+        </div>
+        <div class="cert-card glass-card achievement">
+          <div class="cert-icon cert-green"><i class="fas fa-book-open"></i></div>
+          <div class="cert-body"><h4>Research Paper Published</h4><p>Renewable Energy &amp; Environmental Sustainability</p></div>
+          <span class="achievement-badge">Research</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Let us Connect</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-intro">I am always open to exciting opportunities, collaborations, or just a friendly chat about AI and technology. Feel free to reach out!</p>
+          <div class="contact-links">
+            <a href="https://github.com/sandhyakannan61" target="_blank" class="contact-link-item">
+              <div class="contact-link-icon"><i class="fab fa-github"></i></div>
+              <div>
+                <span class="contact-link-label">GitHub</span>
+                <span class="contact-link-value">github.com/sandhyakannan61</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/sandhya77" target="_blank" class="contact-link-item">
+              <div class="contact-link-icon linkedin-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div>
+                <span class="contact-link-label">LinkedIn</span>
+                <span class="contact-link-value">linkedin.com/in/sandhya77</span>
+              </div>
+            </a>
+            <a href="mailto:sandhyak@example.com" class="contact-link-item">
+              <div class="contact-link-icon email-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="contact-link-label">Email</span>
+                <span class="contact-link-value">sandhyak@example.com</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form glass-card" id="contactForm" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-paper-plane"></i> Send Message</button>
+          <p class="form-success" id="formSuccess">Message sent successfully! I will get back to you soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-copy">2025 Sandhya K - Crafted with passion and code</p>
+        <div class="footer-socials">
+          <a href="https://github.com/sandhyakannan61" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sandhya77" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  <script src="script.js"></script>
+</body>
+</html>
